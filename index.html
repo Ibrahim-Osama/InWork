@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./content/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="./content/css/main/home.css">
+
+
+</head>
+
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-main">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./content/assets/images/navbar/logo.jpg" class="img-fluid"
+                    alt="Vezeeta Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="views/search.html">search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="views/result.html">result</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/worker.html">worker</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Main -->
+    <main class="my-catrgories">
+
+        <div data-category="carpenter" class="category">
+            <img src="./content/assets/images/slider/1.jpg" alt="carpenter">
+
+            <div class="caption">
+                <h5>نجار</h5>
+            </div>
+        </div>
+
+        <div data-category="smith" class="category">
+            <img src="./content/assets/images/slider/2.jpg" alt="smith">
+            <div class="caption">
+                <h5>حداد</h5>
+            </div>
+        </div>
+
+        <div data-category="plumber" class="category">
+            <img src="./content/assets/images/slider/3.jpg" alt="plumber">
+
+            <div class="caption">
+                <h5>سباك</h5>
+            </div>
+        </div>
+
+        <div data-category="electrical" class="category">
+            <img src="./content/assets/images/slider/4.jpg" alt="electrical">
+
+            <div class="caption">
+                <h5>كهربائي</h5>
+            </div>
+        </div>
+
+
+        <div data-category="suspended ceilings" class="category">
+            <img src="./content/assets/images/slider/5.jpg" alt="suspended ceilings">
+
+            <div class="caption">
+                <h5>صنايعي أسقف معلقة</h5>
+            </div>
+        </div>
+
+        <div data-category="ceramic industry" class="category">
+            <img src="./content/assets/images/slider/6.jpg" alt="ceramic industry">
+
+            <div class="caption">
+                <h5>صنايعي سيراميك</h5>
+            </div>
+        </div>
+
+        <div data-category="discussion" class="category">
+            <img src="./content/assets/images/slider/7.jpg" alt="discussion">
+
+            <div class="caption">
+                <h5>نقاش</h5>
+            </div>
+        </div>
+
+
+        <div data-category="alumital industrial" class="category">
+            <img src="./content/assets/images/slider/8.jpg" alt="alumital industrial">
+
+            <div class="caption">
+                <h5>صنايعي ألوميتال</h5>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Scripts -->
+    <script src="./content/js/vendors/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./content/js/main/controllers/homeController.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+body
+{
+    background-color: rgb(226,230,234);
+    font-family: 'Mada', sans-serif;
+}
+.Heder
+{
+    background-image: url("https://d1aovdz1i2nnak.cloudfront.net/vezeeta-web-reactjs/38808/_next/static/images/search-header-background.jpg");
+    background-repeat: no-repeat;
+    
+}
+.Header_contact-text
+{
+  
+  
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 16px;
+    color: rgb(111, 112, 114);
+    padding: 20px;
+}
+
+
+ 
+.recolor 
+{
+   color: red;
+   transform: rotate(200deg);
+   -webkit-transform: rotate(200deg);
+   -moz-transform: rotate(200deg);
+   -ms-transform: rotate(200deg);
+   -o-transform: rotate(200deg);
+}
+.cont
+{
+    width: 20%;
+    padding: 20px 10px;
+    background-color: rebeccapurple;
+}
+.btn-
+{
+    background-color: white;
+    color: black;
+   
+    border-radius: 2%;
+   
+}
+
+.d
+{
+    margin-top: 10px;
+    width: 60%;
+    background-color: white;
+    padding: 50px;
+    color: rgb(134,123,112);
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    line-height: 20px;
+}
+.d img 
+{
+    width: calc(100%/7);
+    margin: 3px;
+}
+.resize
+{
+   margin: 0px 10px;
+   color: lightblue;
+}
+.icon
+{
+    color: rgb(240,182,30);
+    text-align: center;
+
+}
+.d h3 , h4 
+{
+    text-align: center;
+}
+
+.bb
+{
+    padding: 12px;
+    
+    border-radius: 10%;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.dd
+{
+    
+}
+.Header_contact-img img
+{
+   
+    width: 60%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} 
+.Header_contact-img
+{
+    padding: 20px 20px;
+    
+}
+th
+{
+    background-color: rgb(0,112,205);
+}

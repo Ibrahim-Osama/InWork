@@ -1,0 +1,51 @@
+:root {
+    --main-color: rgb(0 112 205);
+}
+
+body {
+    direction: rtl;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+button {
+    color: #eee !important;
+}
+
+nav {
+    height: 10vh;
+}
+/* Start Slider */
+.slider {
+    height: 90vh;
+    background-image: url('../../assets/images/slider/1.jpg');
+    background-size: 100% 100%;
+}
+/* End Slider */
+
+.my-catrgories {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+}
+
+.category{
+    width: 25%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    height: 45vh;
+    margin: 0 !important;
+}
+.category img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2,1.2);
+    transition: 0.5s ease;
+}
+.category:hover img {
+    transform: scale(1,1);
+}
